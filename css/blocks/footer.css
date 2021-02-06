@@ -1,0 +1,24 @@
+.footer {
+    margin-top: auto;
+    background-color: #29282D;
+}
+
+.footer_main-wrapper {
+    display: block;
+    padding-top: 47px;
+    border-top-color: rgba(0, 0, 0, 0.4);
+}
+
+.footer-main_wrapper {
+    padding-top: 54px;
+    margin-bottom: 58px;
+}
+
+.footer_wrapper {
+    padding-top: 54px;
+    margin-bottom: 58px;
+}
+
+.footer_main-line {
+    border-top: 1px solid rgba(255, 255, 255, .1);
+}

@@ -1,0 +1,8 @@
+.nav-wrapper {
+    min-height: 47px;
+    display: flex;
+}
+
+.nav-wrapper_common {
+    margin-bottom: 88px;
+}
