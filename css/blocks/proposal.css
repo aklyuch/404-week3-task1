@@ -17,15 +17,11 @@
     position: relative;
     height: 144px;
     overflow: hidden;
-    text-align: center;
     background-color: #FBFBFB;
-}
-
-.proposal__small-card {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
 }
 
 .proposal__background::before {
@@ -36,6 +32,7 @@
     top: -130px;
     border-radius: 50%;
     position: absolute;
+    z-index: -10;
 }
 
 .proposal__background_base::before {

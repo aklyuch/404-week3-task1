@@ -1,8 +1,8 @@
 .nav-wrapper {
-    min-height: 47px;
     display: flex;
+    align-items: center;
 }
 
 .nav-wrapper_common {
-    margin-bottom: 88px;
+    margin-bottom: 102px;
 }

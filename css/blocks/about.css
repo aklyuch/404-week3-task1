@@ -17,7 +17,7 @@
 
 .about-description {
     position: relative;
-    left: 354px;
+    margin-left: auto;
     width: 785px;
     min-height: 455px;
     background-color: #202123;

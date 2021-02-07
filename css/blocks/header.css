@@ -1,13 +1,13 @@
 .header_main-wrapper {
-    margin-bottom: 176px;
+    margin-bottom: 190px;
 }
 
 .header_common-wrapper {
     padding-top: 27px;
     padding-bottom: 23px;
-    margin-bottom: 53px;
+    margin-bottom: 58px;
     background-image: url('../../img/backgrounds/lion-head-wide.png');
-    background-position: right -280px top -5px;
+    background-position: right -345px top -5px;
     background-repeat: no-repeat;
 }
 

@@ -10,7 +10,7 @@
 }
 
 .partners_wrapper {
-    padding: 88px 0 67px;
+    padding: 90px 0 50px;
 }
 
 .partners__title {
@@ -23,11 +23,18 @@
 .partners__logo-wrapper {
     display: flex;
     min-height: 80px;
-    min-width: 230px;
+    min-width: 280px;
     align-items: center;
     margin-bottom: 50px;
+    flex-grow: 1;
+    max-width: 300px;
+    filter: grayscale(1);
 }
 
 .partners__logo-wrapper:nth-child(4n) {
     justify-content: flex-end;
+}
+
+.partners__logo-wrapper:hover {
+    filter: grayscale(0);
 }

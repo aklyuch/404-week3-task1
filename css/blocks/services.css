@@ -1,18 +1,18 @@
 .services_wrapper {
-    margin-bottom: 123px;
+    margin-bottom: 116px;
     display: flex;
     flex-direction: column;
 }
 
 .services__list {
-    margin-bottom: 84px;
+    margin-bottom: 58px;
 }
 
 .services__item {
-    padding: 40px 143px 38px 30px;
+    padding: 40px 30px 38px 30px;
     display: flex;
     flex-direction: row;
-    margin-bottom: 45px;
+    margin-bottom: 28px;
     min-height: 450px;
 }
 
@@ -33,6 +33,7 @@
 .services__desc-wrapper {
     display: flex;
     flex-direction: column;
+    min-height: 388px;
 }
 
 .services__title {
