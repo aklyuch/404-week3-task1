@@ -1,5 +1,7 @@
 .services_wrapper {
     margin-bottom: 123px;
+    display: flex;
+    flex-direction: column;
 }
 
 .services__list {
@@ -11,6 +13,7 @@
     display: flex;
     flex-direction: row;
     margin-bottom: 45px;
+    min-height: 450px;
 }
 
 .services__item:last-of-type {
@@ -27,8 +30,9 @@
     margin-right: 57px;
 }
 
-.services__wrapper {
-    flex: 1;
+.services__desc-wrapper {
+    display: flex;
+    flex-direction: column;
 }
 
 .services__title {
@@ -40,7 +44,10 @@
 .services__desc {
     font-size: 16px;
     line-height: 1.68em;
+    margin-top: 0;
     margin-bottom: 28px;
 }
 
-
+.services__button-wrapper {
+    margin-top: auto;
+}

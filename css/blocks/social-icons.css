@@ -1,5 +1,6 @@
 .social-icons_wrapper {
-    margin-left: 180px;
+    margin-left: auto;
+    margin-right: 74px;
 }
 
 .social-icons__link {
@@ -49,6 +50,12 @@
     display: flex;
     margin: 0;
     padding: 0;
+}
+
+.social-icons::after {
+    display: block;
+    content:'';
+    max-width: 74px;
 }
 
 .social-icons__item {

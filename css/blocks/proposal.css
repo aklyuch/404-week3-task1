@@ -5,6 +5,8 @@
     border-radius: 5px;
     background-color: #FFFFFF;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .proposal__wrapper {
@@ -51,6 +53,9 @@
 .proposal__description {
     color: #000;
     padding: 34px 20px 26px 22px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .proposal__title {
@@ -84,5 +89,6 @@
 }
 
 .proposal__button-wrapper {
+    margin-top: auto;
     text-align: center;
 }
