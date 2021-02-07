@@ -5,12 +5,6 @@
     border-radius: 5px;
     background-color: #FFFFFF;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
-}
-
-.proposal__wrapper {
-
 }
 
 .proposal__background {

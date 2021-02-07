@@ -19,7 +19,6 @@
 
 .news-item {
     display: flex;
-    flex-direction: column-reverse;
     position: relative;
     width: 557px;
     min-height: 394px;
@@ -27,6 +26,7 @@
     background-blend-mode: multiply;
     background-size: cover;
     background-position-x: -15px;
+    align-items: flex-end;
 }
 
 
