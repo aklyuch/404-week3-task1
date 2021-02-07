@@ -13,19 +13,17 @@
     border-top: 1px solid rgba(255, 255, 255, .1);
 }
 
-.footer-main_wrapper {
-    padding-top: 48px;
+.footer_main-wrapper {
+    padding-top: 52px;
     margin-bottom: 58px;
 }
 
 .footer_wrapper {
-    padding-top: 50px;
+    padding-top: 49px;
     margin-bottom: 43px;
 }
 
-
-
 .footer_address {
-    margin-top: 1px;
+    margin-top: -4px;
     margin-left:0;
 }
